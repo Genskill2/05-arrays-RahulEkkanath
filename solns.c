@@ -85,8 +85,11 @@ int factors(int n, int a[])
 			}
 		}
 		}
+		else
+		{
+			break;
+		}
 	}
-	
 	
 	return count;
 }
